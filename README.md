@@ -1,4 +1,4 @@
 # labmc
 MCMC inversion code for rock deformation data
 
-This code is made public in conjuction with the publication of Fernandez & Korenaga (JGR, 2025). The current version of our MCMC inversion code relies on several functions from Numerical Recipes (Press et al., 1992), which are licensed, so we cannot deposit our code in its entirety in a public depository. We plan to replace these functions with our own implementation in future, but in the meantime, to ensure transparency and reproducibility, we have deposited all parts of our code that do not contain Numerical Recipes functions, and for the functions that rely on Numerical Recipes, we provide descriptions for which Numerical Recipes functions are used (see Makefile). 
+This code is made public in conjuction with the publication of Fernandez & Korenaga (JGR, 2025). The detailed code description is given in Korenaga & Karato (JGR, 2008; https://doi.org/10.1029/2007JB005100) and Mullet et al. (JGR, 2015; https://doi.org/10.1002/2014JB011845). The current version is not quite fail-safe; a better version is planned to be released in the near future...
